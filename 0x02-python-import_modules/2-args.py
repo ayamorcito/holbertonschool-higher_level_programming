@@ -6,8 +6,11 @@ if __name__ == "__main__":
 
     num = len(sys.argv)
 
-    if num:
-        print(f"{(num-1)} arguments.")
+    if num == 1:
+        print(f"{(num - 1)} arguments.")
+
+    else:
+        print(f"{num} arguments:")
     
     for i in range(1, num):
         print(f"{i}: {sys.argv[i]}")
