@@ -10,7 +10,7 @@ if __name__ == "__main__":
         print(f"{(num - 1)} arguments.")
 
     else:
-        print(f"{num} arguments:")
+        print(f"{num - 1} arguments:")
     
     for i in range(1, num):
         print(f"{i}: {sys.argv[i]}")
