@@ -3,10 +3,9 @@ def uppercase(str):
     newstr = ''
     ascci = 0
     for i in str:
-        assci = ord(i)
+        ascci = ord(i)
         if (ascci >= 97 and ascci <= 122):
             newstr = newstr + chr((ord(i) - 32))
         else:
-            newstr = newstr + chr((ord(i)))
-    print("{}".format(str))
-
+            newstr += i
+    print("{}".format(newstr))
