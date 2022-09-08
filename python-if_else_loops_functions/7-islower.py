@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def islower(c):
     ascci = ord(c)
     if (ascci >= 97 and ascci <= 122):
