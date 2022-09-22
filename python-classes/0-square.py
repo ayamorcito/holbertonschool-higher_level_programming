@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Empty Class"""
 class Square:
-    """Empty Class - creates a square"""
+    """creates a square"""
     pass
