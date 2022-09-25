@@ -49,6 +49,6 @@ class Rectangle:
             return ""
         else:
             return (f"{'#'*self.width}\n"*self.height).strip('\n')
-    
+
     def __repr__(self):
         return (f"{self.__class__.__name__}({self.width}, {self.height})")
