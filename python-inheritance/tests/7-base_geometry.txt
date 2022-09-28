@@ -92,3 +92,13 @@ Empty
     Traceback (most recent call last):
         ...
     TypeError: area() takes 1 positional argument but 3 were given
+
+True passed as arg
+   >>> bg.interger_validator('age', True)
+   Traceback (most recent call last):
+   TypeError: age must be an interger
+
+Set as arg
+   >>> bg.interger_validator('age', {3, 4})
+   Traceback (most recent call last):
+   TypeError: age must be an interger
