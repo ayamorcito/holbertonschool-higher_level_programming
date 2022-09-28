@@ -22,14 +22,12 @@ Area
     >>> bg.integer_validator("age", 0)
     Traceback (most recent call last):
         ...
-    ValueError: age must be greater than 0
-
+    TypeError: age must be an integer
 True
     >>> bg.integer_validator("age", True)
     Traceback (most recent call last):
         ...
-    ValueError: age must be greater than 0
-
+    TypeError: age must be an integer
 Set
     >>> bg.integer_validator("age", {3, 4})
     Traceback (most recent call last):
