@@ -93,14 +93,12 @@ Empty
         ...
     TypeError: area() takes 1 positional argument but 3 were given
 
-True passed as arg
-    >>> bg.interger_validator('age', True)
+>>> e = BaseGeometry()
+>>> e.integer_validator('age', True)
     Traceback (most recent call last):
-	...
-    TypeError: age must be an interger
+    TypeError: age must be an integer
 
-Set as arg
-    >>> bg.interger_validator('age', {3, 4})
+    >>> f = BaseGeometry()
+    >>> f.integer_validator('age', {3, 4})
     Traceback (most recent call last):
-	...
-    TypeError: age must be an interger
+    TypeError: age must be an integer
