@@ -92,13 +92,3 @@ Empty
     Traceback (most recent call last):
         ...
     TypeError: area() takes 1 positional argument but 3 were given
-
->>> e = BaseGeometry()
->>> e.integer_validator('age', True)
-    Traceback (most recent call last):
-    TypeError: age must be an integer
-
-    >>> f = BaseGeometry()
-    >>> f.integer_validator('age', {3, 4})
-    Traceback (most recent call last):
-    TypeError: age must be an integer
