@@ -2,7 +2,7 @@
 """ Rectangle Class """
 
 
-from .base import Base
+from models.base import Base
 
 
 class Rectangle(Base):
@@ -30,7 +30,7 @@ class Rectangle(Base):
         return self.__height
 
     @height.setter
-    def width(self, value):
+    def height(self, value):
         self.__height = value
 
     @property
