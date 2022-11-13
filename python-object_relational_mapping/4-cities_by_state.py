@@ -8,7 +8,7 @@ from sys import argv
 if __name__ == '__main__':
 
     database = MySQLdb.connect(host='localhost', port=3306, user=argv[1],
-                         password=argv[2], database=argv[3])
+                               password=argv[2], database=argv[3])
     cursor = database.cursor()
     cursor.execute("SELECT cities.id, cities.name, states.name FROM states\
                 JOIN cities ON states.id = cities.state_id\
